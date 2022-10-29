@@ -1,0 +1,24 @@
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    cursor: pointer;
+}
+
+#sortable li {
+    margin: 0 4px 4px 4px;
+    padding: 0.5em;
+    padding-left: 0.5em;
+    font-size: 1.1em;
+    height: 40px;
+}
+
+#sortable li span {
+    position: absolute;
+    margin-left: 1.1em;
+}
+.ui-state-default{
+    background-color: aqua;
+    border-radius: 10PX;
+}

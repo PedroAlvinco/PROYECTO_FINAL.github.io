@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'source-sans-pro', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+.demo_wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+@media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
+  .demo_wrapper {
+    width: 80%;
+  }  
+}
+.fondo{
+	background-color: rgb(233, 233, 233);
+	float: center;
+}
+.titulo{
+	color: rgb(15, 15, 15);
+}
+.demo_block {
+	width: 100%;
+}
+.sy-pager li.sy-active a {
+    background-color: #4b5ee2;
+}
+.row{
+	padding:5px;
+	text-align: center;
+}
+button{
+	padding:5px;
+	text-align: center;
+	margin:4px;
+}
+.pelicula{
+	color:red;
+}
+.futbol{
+	color:red;
+}
+.comida{
+	color:red;
+}
+.pie{
+	color:azure;
+}
+.atras{
+	text-align: center;
+	color: white;
+}
+.card-header{
+	color: #12bee1;
+	background-color: rgb(67, 66, 66);
+
+}
+.card-title{
+	color: green;
+}
+.card-text{
+	color: white;
+}
+
+.img-thumbnail:hover {
+	border-radius: 30%;
+	-webkit-border-radius: 30%;
+	box-shadow: 0px 0px 15px 15px #d0d0af;
+	-webkit-box-shadow: 0px 0px 15px 15px #d0d0af;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	cursor: no-drop;
+}
+.resaltar{
+	color: blue;
+}
+.resaltar1{
+	color: #129fe1;
+}
+#colorfondo{
+	background-color: rgb(236, 149, 55);
+	cursor: no-drop;
+}
+#nacimiento{
+	color: #2bc875;
+}
+#cinco {
+	color: #2bc875;
+}
+#diez {
+	color: #2bc875;
+}
+#quince {
+	color: #2bc875;
+}
+#actualidad {
+	color: #2bc875;
+}
+.card-body{
+	cursor:no-drop;
+}
+.modal-content{
+	CURSOR: pointer;
+}
